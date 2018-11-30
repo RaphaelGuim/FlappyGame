@@ -6,17 +6,8 @@ public class Controle : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		Destroy(gameObject, 2);
 	}
 	
-	// Update is called once per frame
-	void Update () {
-
-		transform.Translate(Vector3.left*5);
-
-		if(transform.position.x < -18)
-		{
-			Destroy(gameObject);
-		}
-	}
+	 
 }

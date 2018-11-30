@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{409C776E-8747-2FAB-20FE-A30971A5BD75}</ProjectGuid>
+    <ProjectGuid>{EA121D3B-D1E9-842C-447E-2CCD80F56576}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,25 +53,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Controle.cs" />
      <Compile Include="Assets\Scripts\ControlaAviao.cs" />
      <Compile Include="Assets\Scripts\ControlaCenario.cs" />
      <Compile Include="Assets\Scripts\ControlaChao.cs" />
      <Compile Include="Assets\Scripts\Controlador.cs" />
      <Compile Include="Assets\Scripts\ControlaFundo.cs" />
      <Compile Include="Assets\Scripts\ControlaObstaculo.cs" />
+     <Compile Include="Assets\Scripts\Controle.cs" />
      <Compile Include="Assets\Scripts\GeradorObstaculos.cs" />
+     <None Include="Assets\Audio\README.txt" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/Raphael/Documents/FlappyFlappy/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Raphael/Documents/FlappyGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Raphael/Documents/FlappyFlappy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Raphael/Documents/FlappyGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Raphael/Documents/FlappyFlappy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Raphael/Documents/FlappyGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Raphael/Documents/FlappyFlappy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Raphael/Documents/FlappyGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

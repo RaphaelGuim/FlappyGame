@@ -12,10 +12,10 @@ abstract public class ControlaCenario : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {	 
-
-		Mover();
+	void FixedUpdate () {
 		Carrossel();
+		Mover();
+		 
 		 
 	}
 
@@ -23,9 +23,10 @@ abstract public class ControlaCenario : MonoBehaviour {
 
 	private void Carrossel()
 	{
-		if (gameObject.transform.position.x <= -19)
+		 
+		if (gameObject.transform.position.x <= -32)
 		{
-			gameObject.transform.position = new Vector3(35, transform.position.y, transform.position.z);
+			gameObject.transform.position = new Vector3(gameObject.transform.position.x+64, transform.position.y, transform.position.z);
 			 
 		}
 	}

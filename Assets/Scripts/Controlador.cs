@@ -12,9 +12,10 @@ public class Controlador : MonoBehaviour {
 	public Text text;
 	public GameObject gameOver;
 	public GameObject gameOverTexto;
-
+	public float acrescimoVelocidade =  0.01f;
 	public Text aviso;
 	public bool fim = false;
+	public AudioSource audioPonto;
 	// Use this for initialization
 	void Start () {
 		
@@ -29,6 +30,9 @@ public class Controlador : MonoBehaviour {
 	{
 		Pontuacao++;
 		text.text = Pontuacao.ToString();
+		VelocidadeObstatulos += acrescimoVelocidade;
+		VelocidadeFundo += acrescimoVelocidade;
+		audioPonto.Play();
 	}
 
 	public void GameOver()

@@ -38,7 +38,7 @@ public class ControlaObstaculo : MonoBehaviour
 
 	private void Desaparecer()
 	{
-		if (gameObject.transform.position.x <= -8)
+		if (gameObject.transform.position.x <= -18)
 		{
 			 
 			gameObject.SetActive(false);
