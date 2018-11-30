@@ -29,9 +29,7 @@ public class Controlador : MonoBehaviour {
 	public void Pontuar()
 	{
 		Pontuacao++;
-		text.text = Pontuacao.ToString();
-		VelocidadeObstatulos += acrescimoVelocidade;
-		VelocidadeFundo += acrescimoVelocidade;
+		text.text = Pontuacao.ToString();		 
 		audioPonto.Play();
 	}
 
