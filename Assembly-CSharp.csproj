@@ -59,7 +59,8 @@
      <Compile Include="Assets\Scripts\Controlador.cs" />
      <Compile Include="Assets\Scripts\ControlaFundo.cs" />
      <Compile Include="Assets\Scripts\ControlaObstaculo.cs" />
-     <Compile Include="Assets\Scripts\Controle.cs" />
+     <Compile Include="Assets\Scripts\ControleDificuldade.cs" />
+     <Compile Include="Assets\Scripts\ControleMao.cs" />
      <Compile Include="Assets\Scripts\GeradorObstaculos.cs" />
      <None Include="Assets\Audio\README.txt" />
  <Reference Include="UnityEditor.StandardEvents">

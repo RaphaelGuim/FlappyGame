@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Controle : MonoBehaviour {
+public class ControleMao : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

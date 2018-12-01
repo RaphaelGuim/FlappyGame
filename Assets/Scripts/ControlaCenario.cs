@@ -4,7 +4,7 @@ using UnityEngine;
 
 abstract public class ControlaCenario : MonoBehaviour {
 
-	protected Controlador controlador;
+	protected Controlador g;
 	 
 	// Use this for initialization
 	void Start () {
